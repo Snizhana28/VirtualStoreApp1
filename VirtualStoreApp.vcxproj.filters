@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Domain">
+      <UniqueIdentifier>{02495fe6-adbf-4835-8084-8eed53f1d529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentation">
+      <UniqueIdentifier>{f3d92846-9e35-4936-9f62-a9b597d4e4d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal">
+      <UniqueIdentifier>{3a774bfb-b2fe-4d93-badc-c2769b96d77f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Models">
+      <UniqueIdentifier>{eb030af0-f46a-4b14-ac4f-5089a25ac51f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Controllers">
+      <UniqueIdentifier>{09c85526-5871-439e-a7bb-77a19a49b267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Users">
+      <UniqueIdentifier>{ae25022d-dc24-45c6-b62c-0eaaf4141682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentation\Screens">
+      <UniqueIdentifier>{a31e177c-91e1-43d9-9d76-698cd646e1e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Models\Account">
+      <UniqueIdentifier>{77fcffbc-873b-47c0-98dc-3bbfc7a196e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Models\ActionHadler">
+      <UniqueIdentifier>{3290b1ab-8a52-42f4-afef-f6253cd72811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Models\Product">
+      <UniqueIdentifier>{9883cbac-4684-4ca0-9e55-124f4abbaa9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Models\Validation">
+      <UniqueIdentifier>{3bba8e2a-f3f7-44a1-9b31-7666c83d103b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Controllers\CartService">
+      <UniqueIdentifier>{da90b90f-bffd-4268-9085-2b9c945656e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Controllers\StoreService">
+      <UniqueIdentifier>{24d911c7-e5cc-481b-a1e8-38b8e9ccfccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Controllers\ClientProvider">
+      <UniqueIdentifier>{b050078a-24c0-4e93-86d1-6716592f9e96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Controllers\EmployeeProvider">
+      <UniqueIdentifier>{76181448-93be-454e-bf7c-daef9d8b016f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Controllers\ProductProvider">
+      <UniqueIdentifier>{c55961c0-1608-4de5-bfed-7928ff756d08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Users\Client">
+      <UniqueIdentifier>{ee0fcb5b-b1bc-42ec-b0b2-e52ab20d4d19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Users\Employee">
+      <UniqueIdentifier>{031131ef-6ee9-4f4c-93a4-f16bf0808eab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Internal\library.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\Screens\ScreensUI.h">
+      <Filter>Presentation\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Models\Account\Account.h">
+      <Filter>Domain\Models\Account</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Models\ActionHadler\ActionHadler.h">
+      <Filter>Domain\Models\ActionHadler</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Models\Validation\Validation.h">
+      <Filter>Domain\Models\Validation</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Models\Product\Product.h">
+      <Filter>Domain\Models\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Users\Client\Client.h">
+      <Filter>Domain\Users\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Users\Employee\Employee.h">
+      <Filter>Domain\Users\Employee</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Controllers\CartService\CartService.h">
+      <Filter>Domain\Controllers\CartService</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Controllers\ClientProvider\ClientProvider.h">
+      <Filter>Domain\Controllers\ClientProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Controllers\EmployeeProvaider\EmployeeProvider.h">
+      <Filter>Domain\Controllers\EmployeeProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Controllers\ProductProvaider\ProductProvider.h">
+      <Filter>Domain\Controllers\ProductProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Controllers\StoreService\StoreService.h">
+      <Filter>Domain\Controllers\StoreService</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Internal\main.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="Presentation\Screens\Screen1MainLogin.cpp">
+      <Filter>Presentation\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Presentation\Screens\Screen2SignUp.cpp">
+      <Filter>Presentation\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Presentation\Screens\Screen3SignIn.cpp">
+      <Filter>Presentation\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Presentation\Screens\Screen4EmployeeMenu.cpp">
+      <Filter>Presentation\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Presentation\Screens\Screen5ClientMenu.cpp">
+      <Filter>Presentation\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Models\Account\Account.cpp">
+      <Filter>Domain\Models\Account</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Models\Validation\Validation.cpp">
+      <Filter>Domain\Models\Validation</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Models\Product\Product.cpp">
+      <Filter>Domain\Models\Product</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Users\Client\Client.cpp">
+      <Filter>Domain\Users\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Users\Employee\Employee.cpp">
+      <Filter>Domain\Users\Employee</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Controllers\CartService\CartService.cpp">
+      <Filter>Domain\Controllers\CartService</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Controllers\ClientProvider\ClientProvider.cpp">
+      <Filter>Domain\Controllers\ClientProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Controllers\EmployeeProvaider\EmployeeProvider.cpp">
+      <Filter>Domain\Controllers\EmployeeProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Controllers\ProductProvaider\ProductProvider.cpp">
+      <Filter>Domain\Controllers\ProductProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Controllers\StoreService\StoreService.cpp">
+      <Filter>Domain\Controllers\StoreService</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
